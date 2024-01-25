@@ -1,88 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
 
-     <!--Tailwind and DaisyUi-->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!--Tailwind and DaisyUi-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!--Manrope google font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+    <!--Manrope google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
 
-  <!--font awesome stylesheet-->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!--font awesome stylesheet-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 
-  <style>
-    .font-manrope {
-      font-family: 'Manrope', sans-serif;
-    }
-  </style>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div class="navbar bg-base-100 py-2">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                    stroke="text-black">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="text-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Pages</a></li>
-                  <li><a>Blog</a></li>
-                  <li><a>Contact</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-4xl font-bold">Hockey<span class="text-red-600">'</span>s</a>
+                <a class="btn btn-ghost text-4xl font-bold">Hockey<span class="text-red-600">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a class="text-red-600">Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
-              </ul>
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-red-600">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
             </div>
             <div class="navbar-end">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <a class="btn  bg-red-600 text-white gap-x-6">Get Ticket</a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a class="btn  bg-red-600 text-white gap-x-6">Get Ticket</a>
             </div>
-          </div>
+        </div>
 
     </header>
 
+    <main>
+
+    </main>
 
 
-
-
-
-
-
-
-
-
+    <div class="text-center">
+        <h1 class="text-3xl py-4">Professional Hockey Club</h1>
+        <p class="text-xs text-slate-400">Lorem ipsum dolor sit amet, consectetur adipisicing elidfjnvjdn</p>
+        <div class="flex py-16 gap-x-7"> 
+          <div>
+            <div class="radial-progress text-red-600" style="--value:87;" role="progressbar"><span class="text-black">87</span></div>
+            <h3 class="">Prayer Facility</h3>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
     
+          </div>
+          <div>
+            <div class="radial-progress text-emerald-400" style="--value:95;" role="progressbar"><span class="text-black">95</span></div>
+            <h3 class="">Prayer Facility</h3>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+    
+          </div>
+          <div>
+            <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar"><span class="text-black">90</span></div>
+            <h3 class="">Prayer Facility</h3>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+    
+          </div>
+          <div>
+            <div class="radial-progress text-cyan-600" style="--value:80;" role="progressbar"><span class="text-black">80</span></div>
+            <h3 class="">Prayer Facility</h3>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+    
+          </div>
+  
+        </div>
+        
+      </div>
+  
+      <div class="text-center">
+        <h2 class="text-3xl py-4">Program Sections</h2>
+        <p class="text-xs text-slate-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+  
+   <div>
+    <div class="flex py-16">
+      <div class="hero min-h-screen" style="background-image: url(/Images/2.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn btn-primary bg-red-600"><span class="text-white">Register Now!</span></button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="hero min-h-screen" style="background-image: url(/Images/3.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.<p>
+            <button class="btn btn-primary bg-red-600"><span class="text-white">Register Now!</span></button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  
+    <div class="hero min-h-screen" style="background-image: url(/Images/4.png);">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+          <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <button class="btn btn-primary bg-red-600"><span class="text-white">Register Now!</span></button>
+        </div>
+      </div>
+    </div>
+    
+   </div>
+  
+  
+  <div class="py-16">
+    <div class="text-center">
+      <h2 class="text-3xl py-4">Our New Products</h2>
+      <p class="text-xs text-slate-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+  
+  <div class="flex gap-x-7 py-4">
+  <!--1st product-->
+    <div class="card card-side border-2 px-4 py-4">
+      <figure><img src="/Images/5.png" alt="Movie"/></figure>
+      <div class="card-body">
+        <div class="flex">
+        <i class="fa-solid fa-star"></i><p>5.0</p>
+        <i class="fa-light fa-eye"></i> <p>20</p>
+        <i class="fa-regular fa-heart"></i><p>200</p>
+  
+        </div>
+        
+        <h2 class="card-title">New movie is released!</h2>
+        <p>Click the button to watch on Jetflix app.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Watch</button>
+        </div>
+      </div>
+    </div>
+  <!--2nd product-->
+    <div class="card card-side border-2 px-4 py-4">
+      <figure><img src="/Images/6.png" alt="Movie"/></figure>
+      <div class="card-body">
+        <div class="flex">
+          <i class="fa-solid fa-star"></i><p>5.0</p>
+          <i class="fa-light fa-eye"></i> <p>20</p>
+          <i class="fa-regular fa-heart"></i><p>200</p>
+    
+          </div>
+        <h2 class="card-title">New movie is released!</h2>
+        <p>Click the button to watch on Jetflix app.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Watch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="flex gap-x-7 py-4">
+    <!--3rd product-->
+      <div class="card card-side border-2 px-4 py-4">
+        <figure><img src="/Images/7.png" alt="Movie"/></figure>
+        <div class="card-body">
+          <div class="flex">
+            <i class="fa-solid fa-star"></i><p>5.0</p>
+            <i class="fa-light fa-eye"></i> <p>20</p>
+            <i class="fa-regular fa-heart"></i><p>200</p>
+      
+            </div>
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+    <!--4th product-->
+      <div class="card card-side border-2 px-4 py-4">
+        <figure><img src="/Images/8.png" alt="Movie"/></figure>
+        <div class="card-body">
+          <div class="flex">
+            <i class="fa-solid fa-star"></i><p>5.0</p>
+            <i class="fa-light fa-eye"></i> <p>20</p>
+            <i class="fa-regular fa-heart"></i><p>200</p>
+      
+            </div>
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="flex gap-x-7 py-4">
+      <!--5th product-->
+        <div class="card card-side border-2 px-4 py-4">
+          <figure><img src="/Images/9.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <i class="fa-solid fa-star"></i><p>5.0</p>
+              <i class="fa-thin fa-eye"></i> <p>20</p>
+              <i class="fa-regular fa-heart"></i><p>200</p>
+        
+              </div>
+            <h2 class="card-title">New movie is released!</h2>
+            <p>Click the button to watch on Jetflix app.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Watch</button>
+            </div>
+          </div>
+        </div>
+      <!--6th product-->
+        <div class="card card-side border-2 px-4 py-4">
+          <figure><img src="/Images/10.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex">
+              <i class="fa-solid fa-star"></i><p>5.0</p>
+              <i class="fa-light fa-eye"></i> <p>20</p>
+              <i class="fa-regular fa-heart"></i><p>200</p>
+        
+              </div>
+            <h2 class="card-title">New movie is released!</h2>
+            <p>Click the button to watch on Jetflix app.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  
+    <div>
+      <div class="text-center">
+        <h2 class="text-3xl py-4">Clients Questions</h2>
+        <p class="text-xs text-slate-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!--Collapse Menu-->
+    <div class="flex ml-20 mr-20 gap-x-6 mb-20">
+        <div>
+            <img src="/Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+        </div>
+
+        <div tabindex="0" class="collapse collapse-plus border border-base-300 ">
+            <div class="collapse-title text-xl font-medium">
+                Our Equipment
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 ">
+                <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                </div>
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 ">
+                <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                </div>
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300">
+                <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                </div>
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300">
+                <div class="collapse-title text-xl font-medium">
+                    Booking
+                </div>
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300">
+                <div class="collapse-title text-xl font-medium">
+                    Pricings
+                </div>
+                <div class="collapse-content">
+                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--Get in touch section Form and -->
+
+    <div class="text-center">
+        <h2 class="text-3xl py-4">Get in Touch</h2>
+        <p class="text-xs text-slate-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+            dolor. Purus urna in sit nullam proin. </p>
+    </div>
+
+    <div class="flex ml-20 mt-12 justify-center">
+        <!--Three section-->
+
+        <div>
+            <div class="flex">
+                <div class="flex-col border-5 p-12">
+
+                    <div class="bg-green-50 border-2 p-10">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>Phone Number<br>
+                            +88 0180304847874
+                        </p>
+                    </div>
+
+                    <div class="bg-amber-100 mt-5 border-2 p-10">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>
+                            Email<br>
+                            hockey@support.com
+                        </p>
+                    </div>
+
+                    <div class="bg-teal-50 mt-5 border-2 p-10">
+                        <i class="fa-sharp fa-solid fa-map-pin"></i>
+                        <p>
+                            Location<br>
+                            152/1 Mohakhali Wireless Gate
+                        </p>
+                    </div>
+
+                </div>
+
+                <!--Form-->
+                <div>
+                    <form class="max-w-sm mx-auto items-center">
+                        <div class="flex gap-x-3">
+                            <div class="mb-5">
+                                <label for="name"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                                    Name</label>
+                                <input type="name" id="name"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Enter your full name" required>
+                            </div>
+                            <div class="mb-5">
+                                <label for="email"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                                    email</label>
+                                <input type="email" id="email"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label for="text"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+                            <input type="text" id="Subject"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Enter your subject" required>
+                        </div>
+                        <div class="mb-5">
+                            <label for="number"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone
+                                Number</label>
+                            <input type="number" id="number"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Enter your phone number" required>
+                        </div>
+                        <form class="max-w-sm mx-auto">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                                message</label>
+                            <textarea id="message" rows="4"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Leave a comment..."></textarea>
+                        </form>
+                        <button
+                            class="bg-red-600 mt-6 hover:bg-red-600 text-white font-bold w-full px-4 py-3 border border-blue-700 rounded">
+                            Button
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center bg-gray-200 p-10">
+                <h2 class="bold">Social Media</h2>
+                <div class="flex gap-x-2 justify-center">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
